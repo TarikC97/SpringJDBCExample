@@ -15,6 +15,15 @@ public class Student {
         return number;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "number=" + number +
+                ", name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+
     public void setNumber(int number) {
         this.number = number;
     }
